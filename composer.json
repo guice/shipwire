@@ -1,0 +1,25 @@
+{
+    "name": "gp/shipwise",
+    "description": "Shipwise coding challenge",
+    "authors": [
+        {
+            "name": "Philip G",
+            "email": "gp@gpcentre.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "zendframework/zend-http": "2.*",
+        "symfony/console": "dev-master",
+        "pimple/pimple": "dev-master",
+        "ramsey/uuid": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "GP\\Shipwise\\": [
+                "gp/shipwise/src/",
+                "gp/shipwise/tests/"
+            ]
+        }
+    }
+}
