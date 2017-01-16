@@ -6,7 +6,7 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Command\Warehouse;
+namespace GP\Shipwire\Command\Warehouse;
 
 
 use Pimple\Container;
@@ -14,8 +14,8 @@ use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-use GP\Shipwise\Model\Warehouse;
-use GP\Shipwise\Service\Sqlite;
+use GP\Shipwire\Model\Warehouse;
+use GP\Shipwire\Service\Sqlite;
 use Symfony\Component\Console\Question\Question;
 
 class Create extends Command

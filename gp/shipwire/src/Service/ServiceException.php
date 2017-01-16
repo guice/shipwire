@@ -6,7 +6,7 @@
  * Date: 10/21/15
  */
 
-namespace GP\Shipwise\Service;
+namespace GP\Shipwire\Service;
 
 
 class ServiceException extends \Exception

@@ -6,7 +6,7 @@
  * Date: 10/21/15
  */
 
-namespace GP\Shipwise\Command\Warehouse;
+namespace GP\Shipwire\Command\Warehouse;
 
 use Pimple\Container;
 use Symfony\Component\Console\Command\Command;
@@ -14,7 +14,7 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-use GP\Shipwise\Model\Warehouse;
+use GP\Shipwire\Model\Warehouse;
 use Symfony\Component\Console\Question\ChoiceQuestion;
 use Symfony\Component\Console\Question\Question;
 

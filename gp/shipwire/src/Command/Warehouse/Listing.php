@@ -6,7 +6,7 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Command\Warehouse;
+namespace GP\Shipwire\Command\Warehouse;
 
 
 use Pimple\Container;
@@ -15,7 +15,7 @@ use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-use GP\Shipwise\Model\Warehouse as WarehouseModel;
+use GP\Shipwire\Model\Warehouse as WarehouseModel;
 
 class Listing extends Command
 {

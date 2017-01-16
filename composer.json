@@ -1,6 +1,6 @@
 {
-    "name": "gp/shipwise",
-    "description": "Shipwise coding challenge",
+    "name": "gp/shipwire",
+    "description": "Shipwire coding challenge",
     "authors": [
         {
             "name": "Philip G",
@@ -16,9 +16,9 @@
     },
     "autoload": {
         "psr-4": {
-            "GP\\Shipwise\\": [
-                "gp/shipwise/src/",
-                "gp/shipwise/tests/"
+            "GP\\Shipwire\\": [
+                "gp/shipwire/src/",
+                "gp/shipwire/tests/"
             ]
         }
     }

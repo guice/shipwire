@@ -6,17 +6,17 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Command\Product;
+namespace GP\Shipwire\Command\Product;
 
 
-use GP\Shipwise\Service\Sqlite;
+use GP\Shipwire\Service\Sqlite;
 use Pimple\Container;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-use GP\Shipwise\Model\Product;
-use GP\Shipwise\Model\Warehouse;
+use GP\Shipwire\Model\Product;
+use GP\Shipwire\Model\Warehouse;
 use Symfony\Component\Console\Question\ChoiceQuestion;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
 use Symfony\Component\Console\Question\Question;

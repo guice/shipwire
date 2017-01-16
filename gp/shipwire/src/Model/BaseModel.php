@@ -6,7 +6,7 @@
  * Date: 10/21/15
  */
 
-namespace GP\Shipwise\Model;
+namespace GP\Shipwire\Model;
 
 use Pimple\Container;
 use Ramsey\Uuid\Uuid;

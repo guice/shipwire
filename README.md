@@ -1,6 +1,6 @@
-# Shipwise Demo App
+# Shipwire Demo App
 
-This is a demo application for Shipwise to handle rudimentary management of warehouses, products, orders, and auto-determination of most efficient warehouse to ship.
+This is a demo application for Shipwire to handle rudimentary management of warehouses, products, orders, and auto-determination of most efficient warehouse to ship.
 
 Limitations:
 
@@ -17,7 +17,7 @@ To run this:
  * Use the following command to list avaliable options:
 
 ```sh
-    php bin/shipwise.php
+    php bin/shipwire.php
 ```
 
 This application was build as an interactive command line tool. Quick and dirty, enter values as you go for each individual item.
@@ -25,7 +25,7 @@ This application was build as an interactive command line tool. Quick and dirty,
 Example command for listing warehouses:
 
 ```sh
-    php bin/shipwise.php warehouse:list
+    php bin/shipwire.php warehouse:list
 ```
 
 Output:

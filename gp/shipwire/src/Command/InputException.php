@@ -6,7 +6,7 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Command;
+namespace GP\Shipwire\Command;
 
 
 class InputException extends \Exception

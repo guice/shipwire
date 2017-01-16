@@ -6,10 +6,10 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Model;
+namespace GP\Shipwire\Model;
 
 
-use GP\Shipwise\Service\Sqlite;
+use GP\Shipwire\Service\Sqlite;
 
 class Warehouse extends BaseModel
 {

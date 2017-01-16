@@ -6,7 +6,7 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Service;
+namespace GP\Shipwire\Service;
 
 
 use Pimple\Container;

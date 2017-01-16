@@ -1,6 +1,6 @@
 <?php
 
-namespace GP\Shipwise\Service;
+namespace GP\Shipwire\Service;
 
 use Zend\Http\Client as ZendClient;
 use Zend\Http\Client\Adapter\Exception\TimeoutException;

@@ -6,10 +6,10 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Service;
+namespace GP\Shipwire\Service;
 
 
-use GP\Shipwise\Model\SqliteInterface;
+use GP\Shipwire\Model\SqliteInterface;
 
 class Sqlite extends \SQLite3
 {

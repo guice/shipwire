@@ -6,16 +6,16 @@
  * Date: 10/20/15
  */
 
-namespace GP\Shipwise\Command\Order;
+namespace GP\Shipwire\Command\Order;
 
 
-use GP\Shipwise\Model\Order;
+use GP\Shipwire\Model\Order;
 use Pimple\Container;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 
-use GP\Shipwise\Model\Product;
+use GP\Shipwire\Model\Product;
 use Symfony\Component\Console\Question\ChoiceQuestion;
 use Symfony\Component\Console\Question\ConfirmationQuestion;
 use Symfony\Component\Console\Question\Question;
